@@ -386,9 +386,48 @@ span {
 .education {
     background: #112e42;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: column;
-    min-height: auto;
-    padding-bottom: 5rem;
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+.education-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-top: 2rem;
+}
+
+
+.skills {
+    background: #112e42;
+    padding: 2rem 0;
+}
+
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 1.5rem;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #081b29;
+    border-radius: 5px;
+}
+
+.bar {
+    height: 15px;
+    border-radius: 5px;
+    background-color: #00abf0; /* Change color as needed */
+}
+
+.skill h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ededed;
 }
